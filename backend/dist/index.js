@@ -31,7 +31,7 @@ app.use((0, cors_1.default)({
     origin: process.env.FRONTEND_URL,
     credentials: true,
 }));
-app.use(express_1.default.static(path_1.default.join(__dirname, "../../../hotel-app/dist")));
+app.use(express_1.default.static(path_1.default.join(__dirname, "../../website_project/hotel-app/dist")));
 app.use("/api/auth", auth_1.default);
 app.use("/api/users", users_1.default);
 app.use("/api/my-hotels", my_hotels_1.default);

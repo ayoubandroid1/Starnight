@@ -30,7 +30,7 @@ app.use(cors({
 }));
 
 
-app.use(express.static(path.join(__dirname, "../../../hotel-app/dist")));
+app.use(express.static(path.join(__dirname, "../../website_project/hotel-app/dist")));
 
 
 app.use("/api/auth" , authRoutes)
