@@ -1,0 +1,30 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  width: 100%; /* Ensure Navbar spans full width */
+}
+
+.logo_navbar {
+  width: 100px;
+}
+
+.anchors {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end; /* Align items to the right */
+  color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 550;
+}
+
+.Navbar a {
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  color: #ffd700; /* Change color on hover */
+}

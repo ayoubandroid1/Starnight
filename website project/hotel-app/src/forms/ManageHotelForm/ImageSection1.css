@@ -1,0 +1,12 @@
+.image{
+    font-family: Montserrat;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.image1{
+    width:1200px;
+    align-items: center;
+justify-content: center;
+margin-left:150px;
+
+}

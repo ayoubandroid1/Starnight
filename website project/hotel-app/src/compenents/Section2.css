@@ -1,0 +1,53 @@
+.section2{
+    width: 100%;
+      height: auto;
+      max-width: 100%; /* Ensure the image doesn't exceed the container width */
+      max-height: 100vh; /* Ensure the image doesn't exceed the viewport height */
+color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.brushes{
+    width: 150px;
+    height: 0px;
+    transform: rotate(-33.662deg);
+    flex-shrink: 0;
+    margin-top:280px;
+    margin-left:100px;
+}
+.green_brush{
+    margin-left:500px;
+}
+.red_brush{
+    margin-left:500px;
+    margin-top:-130px;    
+}
+.can{
+    font-family:Mr Dafoe;
+    font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top:-250px;
+position:relative;
+}
+.welcome_paragraph{
+    margin-top:40px;
+    font-size: 25px;
+    margin-left:40px;
+    margin-right:40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-items:center;
+justify-content:center;
+text-align:center;
+width:auto;
+height:160px;
+
+    
+}

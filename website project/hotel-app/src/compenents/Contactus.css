@@ -1,0 +1,34 @@
+.contactus_h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-top:70px;
+    text-align: center;
+    color:#363FC4;
+    
+  }
+  
+  .contactus_p {
+    font-size: 1.2em;
+    color: black;
+    margin-top: 20px;
+    margin-left:20px;
+  }
+  
+  .phone {
+    display: block;
+    margin: 50px auto;
+    width: 150px; /* Adjust size as needed */
+  }
+  .input{
+    display:flex;
+    position:absolute;
+    margin-left:500px;
+    margin-top:-200px;
+    width:400px;
+    height:400px;
+    
+  }
+.input input[type="text"],
+.input input[type="email"] {
+  width:300px;
+}

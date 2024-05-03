@@ -1,0 +1,105 @@
+.form{
+    position:absolute;
+    top:30%;
+    left:25%;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.modal {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background color with opacity */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 999;
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.body.active-modal {
+    overflow-y: hidden;
+}
+
+.field{
+    border-radius: 12px;
+}
+
+.dates_picker1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top:45%;
+    left:17%;
+    justify-content: center;
+    width: 1000px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: #16537e;
+  color: #000;
+  text-align: center;
+  font-family: Satisfy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top:-200px;
+  }
+  .button_destination1,
+  .button_checkin1,
+  .button_checkout1,
+  .button_who1 {
+    display: inline-block;
+    color: black; /* Button text color */
+    padding: 10px 164.2px; /* Adjust button padding */
+    padding-left:1px;
+    border: none; /* Remove button border */
+    border-radius: 60px; /* Round button corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    height: 90px; /* Button height */
+    font-size: 20px; /* Adjust button font size */
+    outline:none;
+    
+  }
+  
+  .button_destination1:hover,
+  .button_checkin1:hover,
+  .button_checkout1:hover,
+  .button_who1:hover {
+    background-color: #c46210
+    ; /* Darker background color on hover */
+  }
+  .search_destination1,
+  .add_dates111,
+  .add_dates11,
+  .add_guests1{
+    color:white;
+    font-size:15px;
+    padding-left:15px;
+  }

@@ -1,0 +1,104 @@
+.section3{
+    backgroud-color:black;
+}
+.discover_morocco{
+    width:1350px;
+    margin-top:10px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.morocco{
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-top:-44px;
+    margin-left:780px;
+    color: #E11010;
+}
+.discover{
+    color: #487844;
+}
+.image-container {
+  text-align: center; /* Horizontal centering */
+  display: flex; /* Flex container for vertical centering */
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  }
+.img_qts{
+    position:absolute;
+    width:50px;
+    height:80px;
+    margin-left:850px;
+    margin-top:0px;
+    
+}
+.para_morocco{
+    width:1480px;
+    text-align:center;
+    align-items:center;
+    margin-left:30px;
+    margin-right:30px;
+}
+.para_morocco1{
+    color: #000;
+text-align: center;
+font-family: Inconsolata;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top:30px;
+   
+}
+.tag{
+    color: #868686;
+text-align: center;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top:10px;
+}
+.welcome_animated{
+    font-family: "Permanent Marker", cursive;
+    color: #E11010;
+text-align: center;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:1050px;
+}
+.welcome_animated_ar{
+    color: #487844;
+text-align: center;
+font-family: Al-Jazeera-Arabic;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top:-20px;
+margin-left:-500px;
+}
+.flag_top{
+    display:flex;
+}
+.flag_top_img{
+    height:150px;
+    margin-top:-150px;
+    
+}
+.flag_down_img{
+    height:150px;
+    margin-left:1150px;
+    margin-top:-150px;
+}
